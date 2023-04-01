@@ -21,12 +21,13 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""Etiket Botumuz Suanda Aktif @sohbetf
-Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
-*𝐇𝐄𝐘! ,*
+"""Etiket Botumuz Suanda Aktif Kullanın Herkes Bu Etiket Botu Gruba Eklesin Sponsor= @sohbetf
+Merhaba Botu Bütün Gruplara Ekleyin ! Bota Reklam vermek icin yazın
+*Selamun Aleykum! ,*
 ┏━━━━━━━━━━━━━━━━
-┣ ₪ *Gruba Ekleyin Boş Yetki Vermeniz Yeterli* `
-┣ ₪ Komut : @all : Tüm kişileri etiketler ve /cancel
+┣ ₪ *Gruba Ekleyin Boş Yetki Vermeniz Yeterli* Kullanım gayet basit `
+┣ ₪ Komut : @all (mesaj yaz) : Tüm kişileri etiketler ve /cancel komutu işlemi durdurmak için
+  siz sadece grupta tüm kişilere etiket atmak için @all ve mesaj yazın örnek  @all aloo nerdesiniz
 ┗━━━━━━━━━━━━━━━━━
  
   ʜɪᴛ /help **yardim için /help yaz**
@@ -43,7 +44,7 @@ Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@all,/cancel. @sohbetf @all : Tüm Kisileri Etiketler. /cancel : durdur @sohbetf"
+  helptext = "COMMANDS:@all,/cancel. @sohbetf @all (mesaj yaz) : Tüm Kisileri Etiketler. mesaj gönderir /cancel : işlemi durdur @sohbetf"
   await event.reply(
     helptext,
     link_preview=False,
