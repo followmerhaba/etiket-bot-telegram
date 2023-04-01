@@ -22,12 +22,19 @@ spam_chats = []
 async def start(event):
   await event.reply(
 """Etiket Botumuz Suanda Aktif Kullanın Herkes Bu Etiket Botu Gruba Eklesin Sponsor= @sohbetf
-Merhaba Botu Bütün Gruplara Ekleyin ! Bota Reklam vermek icin yazın
+Merhaba Botu Bütün Gruplara Ekleyin ! 
+
+Bota Reklam vermek icin yazın @reklam_iletisim e yaz
+
 *Selamun Aleykum! ,*
 ┏━━━━━━━━━━━━━━━━
 ┣ ₪ *Gruba Ekleyin Boş Yetki Vermeniz Yeterli* Kullanım gayet basit `
+
 ┣ ₪ Komut : @all (mesaj yaz) : Tüm kişileri etiketler ve /cancel komutu işlemi durdurmak için
-  siz sadece grupta tüm kişilere etiket atmak için @all ve mesaj yazın örnek  @all aloo nerdesiniz
+  siz sadece grupta tüm kişilere etiket atmak için @all ve mesaj yazın 
+
+Örnek;  @all aloo nerdesiniz
+
 ┗━━━━━━━━━━━━━━━━━
  
   ʜɪᴛ /help **yardim için /help yaz**
