@@ -33,10 +33,8 @@ Bota Reklam vermek icin yazın @reklam_iletisim e yaz
 ┣ ₪ Komut : @all (mesaj yaz) : Tüm kişileri etiketler ve /cancel komutu işlemi durdurmak için
   siz sadece grupta tüm kişilere etiket atmak için @all ve mesaj yazın 
 
-Örnek;  @all aloo nerdesiniz
-
+Örnek;  @all aloo nerdesiniz 
 ┗━━━━━━━━━━━━━━━━━
- 
   ʜɪᴛ /help **yardim için /help yaz**
  [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
 """,
